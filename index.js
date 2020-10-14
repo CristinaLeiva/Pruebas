@@ -75,7 +75,7 @@ const RegisterBirthdayIntentHandler = {
         const year = intent.slots.year.value;
         
         sessionAttributes['day'] = day;
-        sessionAttributes['month'] = month; //MM
+        sessionAttributes['month'] = month; 
         sessionAttributes['monthName'] = monthName;
         sessionAttributes['year'] = year;
         const name = sessionAttributes['name'] ? sessionAttributes['name'] + '. ' : '';
